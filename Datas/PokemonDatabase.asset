@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27957a20c7adf96498dcb5a9dbd77afe, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  data:
+  - name: Feunard
+    id: 0
+    height: 11
+    weight: 199
+    icon: {fileID: 21300000, guid: 5f5b0b5069c4a764da2314f7b3a9ab86, type: 3}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 73
+      attack: 76
+      defense: 75
+      special_attack: 81
+      special_defense: 100
+      speed: 100
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      img: {fileID: 0}
+  - name: Kirlia
+    id: 281
+    height: 8
+    weight: 202
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 38
+      attack: 35
+      defense: 35
+      special_attack: 65
+      special_defense: 55
+      speed: 50
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      img: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      img: {fileID: 0}
+  - name: Carapuce
+    id: 7
+    height: 5
+    weight: 90
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 44
+      attack: 48
+      defense: 65
+      special_attack: 50
+      special_defense: 64
+      speed: 43
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      img: {fileID: 0}
+  - name: Dracaufeu
+    id: 6
+    height: 17
+    weight: 905
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 78
+      attack: 84
+      defense: 78
+      special_attack: 109
+      special_defense: 85
+      speed: 100
+    apiTypes:
+    - name: Vol
+      image: https://static.wikia.nocookie.net/pokemongo/images/7/7f/Flying.png
+      img: {fileID: 0}
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      img: {fileID: 0}
+  - name: Florizarre
+    id: 3
+    height: 20
+    weight: 1000
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 80
+      attack: 82
+      defense: 83
+      special_attack: 100
+      special_defense: 100
+      speed: 80
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      img: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      img: {fileID: 0}
+  - name: Tarsal
+    id: 280
+    height: 4
+    weight: 66
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 28
+      attack: 25
+      defense: 25
+      special_attack: 45
+      special_defense: 35
+      speed: 40
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      img: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      img: {fileID: 0}
+  - name: Tortank
+    id: 9
+    height: 16
+    weight: 855
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 79
+      attack: 83
+      defense: 100
+      special_attack: 85
+      special_defense: 105
+      speed: 78
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      img: {fileID: 0}
+  - name: Herbizarre
+    id: 2
+    height: 10
+    weight: 130
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 60
+      attack: 62
+      defense: 63
+      special_attack: 80
+      special_defense: 80
+      speed: 60
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      img: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      img: {fileID: 0}
+  - name: Carabaffe
+    id: 8
+    height: 10
+    weight: 225
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 59
+      attack: 63
+      defense: 80
+      special_attack: 65
+      special_defense: 80
+      speed: 58
+    apiTypes:
+    - name: Eau
+      image: https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png
+      img: {fileID: 0}
+  - name: "Salam\xE8che"
+    id: 4
+    height: 6
+    weight: 85
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 39
+      attack: 52
+      defense: 43
+      special_attack: 60
+      special_defense: 50
+      speed: 65
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      img: {fileID: 0}
+  - name: Bulbizarre
+    id: 1
+    height: 7
+    weight: 69
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 45
+      attack: 49
+      defense: 49
+      special_attack: 65
+      special_defense: 65
+      speed: 45
+    apiTypes:
+    - name: Poison
+      image: https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png
+      img: {fileID: 0}
+    - name: Plante
+      image: https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png
+      img: {fileID: 0}
+  - name: Gardevoir
+    id: 282
+    height: 16
+    weight: 484
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 68
+      attack: 65
+      defense: 65
+      special_attack: 125
+      special_defense: 115
+      speed: 80
+    apiTypes:
+    - name: Psy
+      image: https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png
+      img: {fileID: 0}
+    - name: "F\xE9e"
+      image: https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png
+      img: {fileID: 0}
+  - name: Reptincel
+    id: 5
+    height: 11
+    weight: 190
+    icon: {fileID: 0}
+    info:
+      vieActuelle: 0
+      pntStats: 0
+    stats:
+      HP: 58
+      attack: 64
+      defense: 58
+      special_attack: 80
+      special_defense: 65
+      speed: 80
+    apiTypes:
+    - name: Feu
+      image: https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png
+      img: {fileID: 0}
